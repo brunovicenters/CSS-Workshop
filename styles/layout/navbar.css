@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0px;
+    gap: 1.5rem;
+    max-height: 2rem;
+    max-width: 50rem;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    font-family: var(--reddit-mono);
+    font-weight: 700;
+}
+
+.navigation-navbar {
+    width: 50%;
+}
+
+.navigation-navbar > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    width: 10rem;
+    aspect-ratio: 16/9;
+}
+
+.login-signup {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-session {
+    text-decoration: none;
+    padding: 0.3rem 1.5rem;
+    border: solid 1px black;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+}
+
+.login {
+    color: black;
+    background-color: white;
+}
+
+.sign-up {
+    color: white;
+    background-color: black;
+}
